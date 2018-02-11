@@ -11,4 +11,10 @@ public class TestClassB {
         ClassB obj = new ClassB(); 
         assertTrue("someLibraryMethod should return 'true'", obj.funcKush());
     }
+	
+	@Test public void testFuncKush2() {
+        ClassB obj = new ClassB(); 
+        assertTrue("someLibraryMethod should return 'true'", obj.funcKush2());
+    }
+	
 }
